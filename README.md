@@ -1,7 +1,9 @@
-# Note-TakerAbout.
+# Note-Taker
+
+About
 This application allows to the user to take notes in one place.
 
-Description.
+Description
 The application allows the user to enter any notes they may need and save them. Once they save one note they will have the opportunity to enter as many more as they need.
 
 Challenges
