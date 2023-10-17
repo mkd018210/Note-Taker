@@ -1,9 +1,11 @@
 # Note-Taker
 
 About
+
 This application allows to the user to take notes in one place.
 
 Description
+
 The application allows the user to enter any notes they may need and save them. Once they save one note they will have the opportunity to enter as many more as they need.
 
 Challenges
@@ -21,11 +23,13 @@ Success
 Contributors
 
 User Story
+
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 Acceptance Criteria
+
 GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
