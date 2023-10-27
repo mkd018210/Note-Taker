@@ -1,35 +1,31 @@
 # Note-Taker
 
-About
-
+About:
 This application allows to the user to take notes in one place.
 
-Description
-
+Description:
 The application allows the user to enter any notes they may need and save them. Once they save one note they will have the opportunity to enter as many more as they need.
 
-Challenges
+Challenges:
+The challenges I had was getting the applictaion to run the correct way, getting all the code to work together.
 
+Future Development:
+For future development I would like to make the application look better.
 
-Future Development
+Motivation:
+My motivation was to make an application that makes it easy to take notes easily.
 
+Success:
 
-Motivation
+Contributors:
+I used the started code from class and then changed or added to the code to make it my own.
 
-
-Success
-
-
-Contributors
-
-User Story
-
+User Story:
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
-Acceptance Criteria
-
+Acceptance Criteria:
 GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
