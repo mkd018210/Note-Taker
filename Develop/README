@@ -3,13 +3,13 @@ About: This is an application that helps take and keep notes.
 
 Description: The application allows the user to take notes to keep track of their todos and then deletet them when they are completed.
 
-Challenges: The challenges I had was getting the app deployed to Heroku.
+Challenges: The challenges I had was getting the app deployed to Heroku and getting the app to actually work.
 
 Future Development: For future development I want the user to be able to put the notes in different lists, maybe by day or time.
 
 Motivation: My motivation was to make an application where people can put all their notes and todos in one spot. Easy to create and delete.
 
-Success:I was getting errors and realized I had not installed everything I needed. I am getting a little better at reading the errors and fixing the problems.
+Success:I was getting errors and realized I had not installed everything I needed. I am getting a little better at reading the errors and fixing the problems. I eventually got it to deploy to Heroku. 
 
 Contributors: I used the starter code from class and then added or changed different aspects to make it mine.
 
