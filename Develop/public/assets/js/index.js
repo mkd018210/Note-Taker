@@ -1,4 +1,4 @@
-let noteForm;
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -53,16 +53,14 @@ const deleteNote = (id) =>
 
 const renderActiveNote = () => {
   hide(saveNoteBtn);
-  hide(clearBtn);
+
 
   if (activeNote.id) {
-    show(newNoteBtn);
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
     noteText.value = activeNote.text;
   } else {
-    hide(newNoteBtn);
     noteTitle.removeAttribute('readonly');
     noteText.removeAttribute('readonly');
     noteTitle.value = '';
@@ -109,15 +107,11 @@ const handleNoteView = (e) => {
 // Sets the activeNote to and empty object and allows the user to enter a new note
 const handleNewNoteView = (e) => {
   activeNote = {};
-  show(clearBtn);
   renderActiveNote();
 };
 
 const handleRenderSaveBtn = () => {
-  show(clearBtn);
-  if (!noteTitle.value.trim() && !noteText.value.trim()) {
-    hide(clearBtn);
-  } else if (!noteTitle.value.trim() || !noteText.value.trim()) {
+  if (!noteTitle.value.trim() || !noteText.value.trim()) {
     hide(saveNoteBtn);
   } else {
     show(saveNoteBtn);
@@ -184,8 +178,8 @@ const getAndRenderNotes = () => getNotes().then(renderNoteList);
 if (window.location.pathname === '/notes') {
   saveNoteBtn.addEventListener('click', handleNoteSave);
   newNoteBtn.addEventListener('click', handleNewNoteView);
-  clearBtn.addEventListener('click', renderActiveNote);
-  noteForm.addEventListener('input', handleRenderBtns);
+  noteTitle.addEventListener('keyup', handleRenderSaveBtn);
+  noteText.addEventListener('keyup', handleRenderSaveBtn);
 }
 
 getAndRenderNotes();
