@@ -7,9 +7,9 @@ Challenges: The challenges I had was getting the app deployed to Heroku.
 
 Future Development: For future development I want the user to be able to put the notes in different lists, maybe by day or time.
 
-Motivation: My motivation was to make an application that where people can make their own logos exactly how they want them.
+Motivation: My motivation was to make an application where people can put all their notes and todos in one spot. Easy to create and delete.
 
-Success:
+Success:I was getting errors and realized I had not installed everything I needed. I am getting a little better at reading the errors and fixing the problems.
 
 Contributors: I used the starter code from class and then added or changed different aspects to make it mine.
 
@@ -19,7 +19,6 @@ I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 Acceptance Criteria:
-
 GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
